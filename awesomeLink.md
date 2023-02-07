@@ -49,6 +49,10 @@
 + [Type Challenges Solutions](https://ghaiklor.github.io/type-challenges-solutions/zh/)：收集并提供有趣的 TypeScript 挑战；
 + [极客时间-TypeScript 开发实战](https://time.geekbang.org/course/intro/100032201?tab=catalog)；
 
+**文章：**
+
++ [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid) 
+
 
 
 ### CSS
@@ -162,6 +166,7 @@
 **文章：**
 
 + [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)：git commit message 的一些规则。
++ [Oh Shit, Git!?!](https://ohshitgit.com/) 
 
 **练习：**
 
