@@ -1,3 +1,9 @@
+# 软件开发准则
+
+[AHA Programming](https://kentcdodds.com/blog/aha-programming) 
+
+
+
 # 学习资源
 
 [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/) 
@@ -267,7 +273,7 @@
 
 ## 新闻网址
 
-### 外网新闻
+**外网新闻**
 
 + http://www.ecns.cn/
 + https://www.sciencenews.org/
@@ -287,14 +293,14 @@
 
 
 
-### 中网新闻
+**中网新闻**
 
 + https://www.jiemian.com/
 + https://www.jiqizhixin.com/
 
 
 
-### 视野新闻
+**视野新闻**
 
 + [美国散户大战华尔街大鳄：游戏驿站里的“游戏”不简单](https://huacheng.gz-cmc.com/pages/2021/02/08/145d5ab5e3e043e8893966ad56ddcbed.html) 
 + [也谈“散户大战华尔街”](https://finance.sina.com.cn/roll/2021-02-08/doc-ikftpnny5693532.shtml) 
