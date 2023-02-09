@@ -88,8 +88,19 @@
 
 ### React
 
-+ hook：
+**视频：**
 
++ [极客时间-React 实战进阶 45 讲](https://time.geekbang.org/course/intro/100009301?tab=catalog)；
+
+**工具库：**
+
++ [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件；
++ [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件；
++ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子；
++ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子；
++ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求；
+
++ hooks：
   + [useHooks](https://usehooks.com/)
 
   + [usehooks-ts](https://usehooks-ts.com/)
@@ -97,8 +108,6 @@
   + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)
 
   + https://streamich.github.io/react-use/?path=/story/components-usekey--demo
-
-+ [极客时间-React 实战进阶 45 讲](https://time.geekbang.org/course/intro/100009301?tab=catalog)；
 
 
 
@@ -212,6 +221,8 @@
 
 # 便捷工具
 
+## web 类
+
 + [Ebook Reader](https://www.loudreader.com/) ：网页阅读 azw3、epub、mobi、pdf 格式的电子书。
 + [EPUB.to](https://epub.to/) ：将 EPUB 格式的电子书转为其他格式，也可以将其他格式转为 EPUB。
 + [XMIND TO TESTCASE](http://10.129.103.113:5001/) ：Xmind 文件转 Excel 表格。
@@ -221,6 +232,26 @@
 + [uidea.tools](http://uidea.tools/) ：一个在线 UI 设计工具，可以用来制作 H5 网页原型。
 + [PDFReal](https://pdfreal.com/) ：该网站提供了一系列在线工具，用于 PDF 文件的各种处理。
 + [Iconic](https://iconic.app/) ：一个开放式的图标仓库，可以分类查找图标，免费下载。
+
+
+
+## APP 类
+
++ [RunCat](https://kyome.io/runcat/index.html?lang=en)：在状态栏动画显示 CPU 运行速度。
++ [Stretchly](https://hovancik.net/stretchly/)：休息提醒。
++ [番茄土豆](https://pomotodo.com/intl/zh-CN/)：时间管理。
++ [Grammarly](https://www.grammarly.com/)：英语语法检查。
+
+
+
+## Library 类
+
++ [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件。
++ [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件。
++ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子。
++ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子。
++ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求。
++ [Ramda](https://ramdajs.com/)：常用函数库。
 
 
 
