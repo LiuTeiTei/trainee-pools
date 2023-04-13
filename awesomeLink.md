@@ -186,7 +186,7 @@
 + [Javascript & Node.js Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md)  
 + [掘金-React Hook测试指南](https://juejin.cn/post/6854573214749294600) 
 + [Mastering Unit Testing](https://docs.google.com/presentation/d/1DWEnSjfbWMoMEVOe4Qw9dVhgAPXxPyltOoFxuAK1YbY/edit#slide=id.g1298ae71f44_2_80) 
-+ [Jest 单元测试规范 - MDAP - BFF 层设计](https://confluence.shopee.io/pages/viewpage.action?pageId=1048974992) 
++ [Jest 单元测试规范 - MDAP - BFF 层设计](https://confluence.*.io/pages/viewpage.action?pageId=1048974992) 
 
 
 
