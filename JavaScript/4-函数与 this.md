@@ -315,12 +315,16 @@ showThis.call({}, 1, 2, 3);       // {}, 6
 showThis.apply({}, [1, 2, 3]);    // {}, 6
 ```
 
+
+
 Function.prototype.bind 可以创建一个新函数，这个函数的 this 值固定了参数：
 
 ```js
 const newShowThis = showThis.bind({}, 1, 2, 3);
 newShowThis(1, 2, 3);    // {}, 6
 ```
+
+
 
 注意：call、bind 和 apply 用于不接受 this 的函数类型如箭头、class 不会报错，可以传参但无法改变 this。
 
