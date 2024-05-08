@@ -333,4 +333,4 @@ newShowThis(1, 2, 3);    // {}, 6
 # Reference
 
 + [Front-End-Basics: JavaScript 函数](https://docs.chenfangxu.com/javascript/utility/javascript-function.html) 
-+ [[极客重学前端] JavaScript执行（三）：你知道现在有多少种函数吗？](https://b.geekbang.org/member/course/detail/83719) 
++ [重学前端（十九）JavaScript 执行（三）：你知道现在有多少种函数吗？](https://qiankunpingtai.cn/article/1570152384374) 
