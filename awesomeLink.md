@@ -90,6 +90,7 @@
 **文章：**
 
 + [浏览器简史及其核心原理详解：47 张图带你走进浏览器的世界](https://juejin.cn/post/6983896089703235592) 
++ [Chrome for Developers - Blog](https://developer.chrome.com/blog?hl=zh-cn) 
 
 
 
@@ -234,7 +235,13 @@
 
 
 
-### 性能监控
+### 性能
+
+**教程：**
+
++ [web.dev: Learn Performance](https://web.dev/learn/performance/welcome?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fperformance&hl=zh-cn#article-https://web.dev/learn/performance/welcome&hl=zh-cn) 
+
+
 
 + [web-vital](https://web.dev/vitals/) 
 + [express-status-monitor](https://www.npmjs.com/package/express-status-monitor) 
@@ -246,6 +253,18 @@
 **文章：**
 
 + [万能通用！权限系统就该这么设计！](https://mp.weixin.qq.com/s/_CObHPy7o5eAVISRVYhapQ) 
+
+
+
+### JSDoc
+
+文档：
+
++ [@use JSDoc](https://jsdoc.app/) 
+
+教程：
+
++ [JSDoc 入门](https://www.jsdoc.com.cn/) 
 
 
 
