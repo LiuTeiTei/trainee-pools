@@ -26,6 +26,27 @@
     ```
 
   + 使用 `brew` 关键字进行命令语句的调用
+  
++ 安装位置
+
+  + 在 Mac Intel 上安装 Homebrew 时，默认的安装路径是 `/usr/local/Homebrew`：
+
+    ```bash
+    $ which brew
+    /usr/local/bin/brew
+    ```
+  
+  + 在 Mac M1 上安装 Homebrew 时，默认的安装路径是 `/opt/homebrew`：
+  
+      ```bash
+      $ which brew
+      /opt/homebrew/bin/brew
+      ```
+  
+  + 如果安装路径错误可以参考 https://github.com/abiosoft/colima/issues/702#issuecomment-1600029743
+
+
+
 
 ### 国内镜像安装
 

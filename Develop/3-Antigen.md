@@ -82,6 +82,99 @@
 
 `.zshrc` 是 zsh 的配置文件，以我的配置为例，里面的配置主要分为以下部分：
 
+```
+# nvm
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
+# 导入 antigen.zsh 文件
+source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+
+# 加载oh-my-zsh库
+antigen use oh-my-zsh
+
+# 加载原版oh-my-zsh中的功能(robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle extract
+antigen bundle z
+antigen bundle heroku
+antigen bundle command-not-found
+antigen bundle docker
+
+# 语法高亮功能
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# 代码提示功能
+antigen bundle zsh-users/zsh-autosuggestions
+
+# 自动补全功能
+antigen bundle zsh-users/zsh-completions
+
+# node 包管理插件
+antigen bundle lukechilds/zsh-nvm
+
+# 加载主题
+antigen theme denysdovhan/spaceship-prompt
+
+# 保存更改
+antigen apply
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_USER_COLOR="212"
+
+# 快速打开 typora
+alias ty="open -a typora"
+
+# MySql 路径配置
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+```
+
+```
+# 路径配置
+export PATH="/opt/homebrew/bin:$PATH"
+
+# 导入 antigen.zsh 文件
+source /opt/homebrew/share/antigen/antigen.zsh
+
+# 加载oh-my-zsh库
+antigen use oh-my-zsh
+
+# 加载原版oh-my-zsh中的功能(robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle extract
+antigen bundle z
+antigen bundle heroku
+antigen bundle command-not-found
+# antigen bundle docker
+
+# 语法高亮功能
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# 代码提示功能
+antigen bundle zsh-users/zsh-autosuggestions
+
+# 自动补全功能
+antigen bundle zsh-users/zsh-completions
+
+# node 包管理插件
+antigen bundle lukechilds/zsh-nvm
+
+# 加载主题
+antigen theme denysdovhan/spaceship-prompt
+
+# 保存更改
+antigen apply
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_USER_COLOR="212"
+
+# 快速打开 typora
+alias ty="open -a typora"
+```
+
 <img src="./images/zshrc.png" width = "400" height = "600" alt="zshrc" align=left />
 
 + 把 antigen 中的全部环境变量加入 `source` 字段后，避免出现 ‘zsh: command not found: xxx’ 的报错。可以通过 `brew list antigen` 查看 antigen 安装路径；
