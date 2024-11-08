@@ -273,6 +273,7 @@
 + [让我在面试官面前结巴的24个XX和XX的区别！](https://juejin.cn/post/6956360277185003556)
 + [前端专刷/Promise相关](https://wiki.jirengu.com/doku.php?id=%E5%89%8D%E7%AB%AF%E4%B8%93%E5%88%B7_promise%E7%9B%B8%E5%85%B3) 
 + [要就来45道Promise面试题一次爽到底](https://github.com/LinDaiDai/niubility-coding-js/blob/master/JavaScript/%E5%BC%82%E6%AD%A5/%E8%A6%81%E5%B0%B1%E6%9D%A545%E9%81%93Promise%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B8%80%E6%AC%A1%E7%88%BD%E5%88%B0%E5%BA%95.md) 
++ [【Step-By-Step】一周面试题深入解析 ](https://github.com/YvetteLau/Blog?tab=readme-ov-file) 
 
 
 
@@ -290,6 +291,15 @@
 
 
 # 扩展眼界
+
+## 个人博客
+
++ [阮一峰的网络日志](https://www.ruanyifeng.com/blog/weekly/) 
++ [overreacted](https://overreacted.io/)
+  + [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) 
+  + [How Does setState Know What to Do?](https://overreacted.io/how-does-setstate-know-what-to-do/) 
+
+
 
 ## 科技周刊
 
