@@ -104,17 +104,28 @@
 
 ### React
 
+**文档：**
+
++ [React](https://zh-hans.react.dev/)：React 官方中文文档
++ [Create React App](https://create-react-app.dev/) 
++ [React Router Dom ](https://reactrouter.com/en/main) 
+
 **教程：**
 
-+ [极客时间-React 实战进阶 45 讲](https://time.geekbang.org/course/intro/100009301?tab=catalog)；
++ [极客时间-React 实战进阶 45 讲](https://time.geekbang.org/course/intro/100009301?tab=catalog) 
 
 **工具库：**
 
-+ [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件；
-+ [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件；
-+ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子；
-+ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子；
-+ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求；
++ [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件
++ [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件
++ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子
++ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子
++ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
+
+**文章：**
+
++ [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) 
++ [How Does setState Know What to Do?](https://overreacted.io/how-does-setstate-know-what-to-do/) 
 
 
 
