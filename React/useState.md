@@ -159,5 +159,6 @@ const handleClick = async () => {
 # Reference
 
 + [React中的setState的同步异步与合并](https://blog.csdn.net/wuyxinu/article/details/113902057) 
+  + componentWillUpdate 和 componentDidUpdate 这两个生命周期中不能调用 setState，会造成死循环导致程序崩溃。
 + [React中setState的异步与合并](https://blog.csdn.net/qq_36647492/article/details/136395865) 
 + [CodeSandBox - React useState](https://codesandbox.io/dashboard/sandboxes/React/usState?workspace=f515a3a5-c31a-4315-b150-d8d5df24700a) 
