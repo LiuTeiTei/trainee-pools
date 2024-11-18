@@ -74,3 +74,6 @@ module.exports = {
 + `resolve.extensions`：尝试按顺序解析这些后缀名。如果有多个文件有相同的名字，但后缀名不同，webpack 会解析列在数组首位的后缀的文件 并跳过其余的后缀；
 + `resolve.modules`：告诉 webpack 解析模块时应该搜索的目录；
 + `resolve.alias`：创建 `import` 或 `require` 的别名，来确保模块引入变得更简单。
+
+
+
