@@ -116,12 +116,25 @@
 
 **工具库：**
 
-+ [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件
-+ [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件
-+ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子
-+ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子
-+ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
-+ [React Router](https://reactrouter.com/en/main/route/route#index)：React 路由控制，v5 和 v6 差别比较大
++ React 组件库：
+  + [Ant Design](https://ant.design/components/overview-cn/)：基础组件库
+  + [Ant Design ProComponents](https://procomponents.ant.design/components)：CRUD 的 Ant Design；
+  + [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件
+  + [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件
+  + [Reshake](https://elrumordelaluz.github.io/reshake/)：瑟瑟发抖的组件；
++ React Fetchs：
+  + [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
++ React Hooks：
+  + [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子
+  + [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子
+  + [useHooks](https://usehooks.com/)
+  + [usehooks-ts](https://usehooks-ts.com/)
+
+  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)
+
+  + https://streamich.github.io/react-use/?path=/story/components-usekey--demo
++ 其他
+  + [React Router](https://reactrouter.com/en/main/route/route#index)：React 路由控制，v5 和 v6 差别比较大
 
 **文章：**
 
@@ -379,29 +392,19 @@
 
 ## Library 类
 
-+ [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子。
-+ [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子。
-+ [React Query](https://react-query-v3.tanstack.com/)：React 数据请求。
-+ [Ramda](https://ramdajs.com/)、[Lodash](https://lodash.com/docs/4.17.15)：常用函数库。
-+ React Hooks：
-  + [useHooks](https://usehooks.com/)
+### 函数库
 
-  + [usehooks-ts](https://usehooks-ts.com/)
++ [Ramda](https://ramdajs.com/)、[Lodash](https://lodash.com/docs/4.17.15)：常用函数库
++ [SWR](https://swr.vercel.app/)：用于数据获取和状态管理的前端库
 
-  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)
+### 组件库
 
-  + https://streamich.github.io/react-use/?path=/story/components-usekey--demo
-+ [Alibaba Formily](https://formilyjs.org/)：支持 React、Reactive、Vue 框架的组件库；
-+ React 组件库：
-  + [Ant Design](https://ant.design/components/overview-cn/)：基础组件库；
-  + [Ant Design ProComponents](https://procomponents.ant.design/components)：CRUD 的 Ant Design；
-  + [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：无限滚动组件；
-  + [re-resizable](https://github.com/bokuweb/re-resizable)：伸缩布局组件；
-  + [Reshake](https://elrumordelaluz.github.io/reshake/)：瑟瑟发抖的组件；
++ [Alibaba Formily](https://formilyjs.org/)：支持 React、Reactive、Vue 框架的组件库
++ [vis-timeline](https://github.com/visjs/vis-timeline)：时间轴
 
 
 
-## web 类
+## Web 类
 
 + [Ebook Reader](https://www.loudreader.com/) ：网页阅读 azw3、epub、mobi、pdf 格式的电子书。
 + [EPUB.to](https://epub.to/) ：将 EPUB 格式的电子书转为其他格式，也可以将其他格式转为 EPUB。
