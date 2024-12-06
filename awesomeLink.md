@@ -122,6 +122,8 @@
   + [React Infinite Scroller](https://github.com/danbovey/react-infinite-scroller)：React 无限滚动组件
   + [re-resizable](https://github.com/bokuweb/re-resizable)：React 伸缩布局组件
   + [Reshake](https://elrumordelaluz.github.io/reshake/)：瑟瑟发抖的组件；
+  + [React error boundary](https://github.com/bvaughn/react-error-boundary)：React 错误处理方式；
+    + [React error boundary: 更强大的 React 错误处理方式](https://www.illacloud.com/zh/blog/react-error-boundary/#%E4%BB%80%E4%B9%88%E6%98%AF-react-error-boundary)
 + React Fetchs：
   + [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
 + React Hooks：
