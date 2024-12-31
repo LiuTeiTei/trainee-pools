@@ -126,6 +126,7 @@
     + [React error boundary: 更强大的 React 错误处理方式](https://www.illacloud.com/zh/blog/react-error-boundary/#%E4%BB%80%E4%B9%88%E6%98%AF-react-error-boundary)
 + React Fetchs：
   + [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
+  + [SWR](https://swr.vercel.app/zh-CN)：用于数据请求的 React Hooks 库
 + React Hooks：
   + [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子
   + [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子
