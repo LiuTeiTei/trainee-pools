@@ -1,17 +1,45 @@
-# CORS
-
-跨域资源共享 Cross-Origin Resource Sharing
-
-
-
 # 同源策略
 
 [浏览器的同源策略](https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy)
 
 同源
 
-+ 如果两个 URL 的协议、端口和主机都相同的话，则这两个 URL 是同源的。
++ 如果两个 URL 的 Protal、Domain 和 Port 都相同的话，则这两个 URL 是同源的。
 + Cookie 对同域的定义更加宽泛一些，只要是父域相同且不是公共后缀即可。例如 `x.a.com` 和 `y.a.com` 是同域。
+
+
+
+# 支持跨域请求
+
+[ 突破跨域限制的9种解决方案](https://juejin.cn/post/6999615960134975495#heading-6)
+
+
+
+## CORS
+
+跨域资源共享 Cross-Origin Resource Sharing
+
+[阮一峰 - 跨域资源共享 CORS 详解](https://www.ruanyifeng.com/blog/2016/04/cors.html)
+
++ 简单请求（simple request）和非简单请求（not-so-simple request）
++ Access-Control-XXX
+
+
+
+### 服务端
+
+[nest - CORS](https://docs.nestjs.com/security/cors#getting-started)
+
+```js
+// 方法一
+const app = await NestFactory.create(AppModule);
+app.enableCors();
+await app.listen(process.env.PORT ?? 3000);
+
+// 方法二
+const app = await NestFactory.create(AppModule, { cors: true });
+await app.listen(process.env.PORT ?? 3000);
+```
 
 
 
@@ -20,6 +48,10 @@
 ## 设置 Cookie
 
 设置 Cookie 时 Domain 可以设置为父域名和自身，但是不能设置其他域名和子域名。
+
+```js
+document.cookie = 'xxx'
+```
 
 
 
