@@ -1,0 +1,1 @@
+[Useful built-in macOS command-line utilities](https://weiyen.net/articles/useful-macos-cmd-line-utilities/) 
