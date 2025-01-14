@@ -14,6 +14,8 @@
 
 ### JavaScript
 
+**文档：**
+
 **书籍：**
 
 + [《ES6 入门教程》](https://es6.ruanyifeng.com/) 
@@ -35,6 +37,10 @@
 
 
 ### TypeScript
+
+**文档：**
+
++ [TypeScript Documentation](https://www.typescriptlang.org/docs/) 
 
 **教程：**
 
@@ -199,6 +205,14 @@
 
 
 
+### NestJS
+
++ **文档：**
+  + [NestJS](https://nestjs.com/)：官方文档
+  + [NestJS](https://docs.nestjs.cn/10/awesome)：民间中文文档
+
+
+
 ### 微服务
 
 **文章：**
@@ -208,22 +222,6 @@
 
 
 ## Others
-
-### Network
-
-**书籍：**
-
-+ [数据包的旅行](https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/)：一组英文系列文章，介绍互联网的架构和原理，从数据包的构成到路由的概念，图文并茂，写得非常好。
-
-
-
-### 设计模式
-
-**书籍：**
-
-+ [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html) 
-
-
 
 ### Git
 
@@ -243,7 +241,31 @@
 
 **练习：**
 
-+ [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN) ：生动形象的 git 练习；
++ [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN) ：生动形象的 git 练习。
+
+
+
+### API
+
+**教程**：
+
++ [Google - API 设计指南](https://cloud.google.com/apis/design?hl=zh-cn)：API 的通用设计指南，同时适用于 REST API 和 RPC API。
+
+
+
+### Network
+
+**书籍：**
+
++ [数据包的旅行](https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/)：一组英文系列文章，介绍互联网的架构和原理，从数据包的构成到路由的概念，图文并茂，写得非常好。
+
+
+
+### 设计模式
+
+**书籍：**
+
++ [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html) 
 
 
 
@@ -329,6 +351,7 @@
 + [overreacted](https://overreacted.io/)
   + [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) 
   + [How Does setState Know What to Do?](https://overreacted.io/how-does-setstate-know-what-to-do/) 
++ [ramsayleung](https://ramsayleung.github.io/zh/) 
 
 
 
@@ -405,8 +428,19 @@
 
 ### 组件库
 
++ [echarts](https://echarts.apache.org/zh/index.html)：一个基于 JavaScript 的开源可视化图表库
 + [Alibaba Formily](https://formilyjs.org/)：支持 React、Reactive、Vue 框架的组件库
 + [vis-timeline](https://github.com/visjs/vis-timeline)：时间轴
++ [iconfont](https://www.iconfont.cn/)：阿里巴巴矢量图标库
++ [Iconic](https://iconic.app/) ：一个开放式的图标仓库，可以分类查找图标，免费下载
++ [flaticon](https://www.flaticon.com/)：图标库
+
+### 框架库
+
++ [React](https://react.dev/)：The library for web and native user interfaces
++ Vue
++ [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
++ [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
 
 
 
@@ -418,9 +452,23 @@
 + 只要在 GitHub 仓库域名后面加上`1s`，比如`github1s.com/facebook/react`，就能在浏览器里面使用 VS Code 环境，浏览这个仓库的代码。
 + [Coding Fonts](https://coding-fonts.css-tricks.com/) ：浏览各种不同代码编辑器字体的渲染效果。
 + [345Tool.com](https://www.345tool.com/zh-hans) ：收集了一些可以提高编程效率的在线小工具。
-+ [uidea.tools](http://uidea.tools/) ：一个在线 UI 设计工具，可以用来制作 H5 网页原型。
 + [PDFReal](https://pdfreal.com/) ：该网站提供了一系列在线工具，用于 PDF 文件的各种处理。
-+ [Iconic](https://iconic.app/) ：一个开放式的图标仓库，可以分类查找图标，免费下载。
+
+### API 管理工具
+
++ [YApi](https://yapi.pro/)：高效、易用、功能强大的API管理平台
++ [Apifox](https://apifox.com/)：API 设计、开发、测试一体化协作平台
+
+### 画图工具
+
++ [ProcessOn](https://www.processon.com/)：可用于原型图、UML、BPMN、网络拓扑图等多种图形绘制，连接处可以自动对齐
++ [excalidraw](https://excalidraw.com/)：手绘画风的画板工具，非常适合构建原型或阐述想法
+  + https://github.com/excalidraw/excalidraw
++ [carbon](https://carbon.now.sh/)：代码图片化，有多种主题可以选择
++ [shopify](https://www.shopify.com/zh/tools/logo-maker)：免费 logo 制作器
++ [graphviz](https://graphviz.org/)：绘制复杂的关系图，timeline 图
++ [plantuml](https://plantuml.com/)：绘制各种序列图，类图，活动图，状态机图等等各种UML图
++ [matplotlib](https://matplotlib.org/)：绘制各种图表，比如折线图，饼图，直方图等，通常是配合数据分析使用，还支持xkcd 风格
 
 
 

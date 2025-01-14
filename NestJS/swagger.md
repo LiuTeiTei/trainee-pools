@@ -197,8 +197,8 @@ import { OPEN_API_LIST } from './open-api-list'
 
 export const getSwaggerDocument = (app: INestApplication) => {
   const swaggerConfig = new DocumentBuilder()
-    .addServer('https://monitoring.infra.sz.shopee.io/', 'Live')
-    .addServer('https://monitoring.test.shopee.io/', 'Nonlive')
+    .addServer('https://monitoring.infra.sz.xiami.io/', 'Live')
+    .addServer('https://monitoring.test.xiami.io/', 'Nonlive')
     .setTitle('Node API')
     .setDescription(
       `Monitoring Platform OpenAPI (Node API Service) \n\n Document Update time: ${dayjs().format(

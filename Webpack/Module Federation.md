@@ -12,8 +12,8 @@ https://webpack.docschina.org/concepts/module-federation/
 
 space 的模块联邦
 
-[[dev handbook\] SPACE Remote Shared Modules](https://confluence.shopee.io/display/DSFE/[dev+handbook]+SPACE+Remote+Shared+Modules)
+[[dev handbook\] SPACE Remote Shared Modules](https://confluence.xiami.io/display/DSFE/[dev+handbook]+SPACE+Remote+Shared+Modules)
 
-[[Microspace\] Tech Design](https://confluence.shopee.io/display/DSFE/[Microspace]+Tech+Design)
+[[Microspace\] Tech Design](https://confluence.xiami.io/display/DSFE/[Microspace]+Tech+Design)
 
-[[Microspace\] How to expose project modules via module federation](https://confluence.shopee.io/display/DSFE/[Microspace]+How+to+expose+project+modules+via+module+federation)
+[[Microspace\] How to expose project modules via module federation](https://confluence.xiami.io/display/DSFE/[Microspace]+How+to+expose+project+modules+via+module+federation)

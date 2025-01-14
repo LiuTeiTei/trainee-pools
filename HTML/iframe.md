@@ -17,10 +17,10 @@ https://ant.design/docs/react/compatible-style-cn#shadow-dom-%E5%9C%BA%E6%99%AF
 import React, { useCallback } from 'react'
 import ReactDOM from 'react-dom/client'
 import * as infrad from 'infrad'
-import * as monaco from '@shopee/lowcode-plugin-base-monaco-editor'
+import * as monaco from '@xiami/lowcode-plugin-base-monaco-editor'
 
 const styleFrags = `
-<link rel="stylesheet" href="https://unpkg.shopee.io/infrad@5.21.6-alpha.4/dist/reset.css" />
+<link rel="stylesheet" href="https://unpkg.xiami.io/infrad@5.21.6-alpha.4/dist/reset.css" />
 `
 const scriptFrags = `<script data-id="react">window.React=parent.React;window.ReactDOM=parent.ReactDOM;window.__is_simulator_env__=true;</script>
 <script>window.PropTypes=parent.PropTypes;React.PropTypes=parent.PropTypes; window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;</script>
