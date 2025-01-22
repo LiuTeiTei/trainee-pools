@@ -18,6 +18,7 @@
 
 **书籍：**
 
++ [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 + [《ES6 入门教程》](https://es6.ruanyifeng.com/) 
 + [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) 
 + [JQuery JavaScript Style Guide](https://contribute.jquery.org/style-guide/js/) 
@@ -26,9 +27,16 @@
 
 + [现代 JavaScript 教程](https://zh.javascript.info/)
 
-**文章：**
+**合集：**
 
 + [What the f*ck JavaScript?](https://github.com/denysdovhan/wtfjs) 
++ [How Javascript Works](https://medium.com/tag/how-javascript-works) 
+  + 第一篇：[How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf) 
+  + 中文翻译：[JavaScript是如何工作的：引擎，运行时以及调用栈的概述](https://github.com/madneal/articles-translator/blob/master/JavaScript%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%EF%BC%9A%E7%B3%BB%E5%88%97%E4%B8%80.md) 
+
+**文章：**
+
++ [You-Dont-Need-jQuery](https://github.com/camsong/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)：使用原生的 JS 解决典型的编程问题
 
 **资源：**
 
@@ -142,7 +150,7 @@
   + [useHooks](https://usehooks.com/)
   + [usehooks-ts](https://usehooks-ts.com/)
 
-  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)
+  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)：其中的 useRequest 是一个强大的异步数据管理的 Hook；
 
   + https://streamich.github.io/react-use/?path=/story/components-usekey--demo
 + 其他
@@ -251,6 +259,11 @@
 
 + [Google - API 设计指南](https://cloud.google.com/apis/design?hl=zh-cn)：API 的通用设计指南，同时适用于 REST API 和 RPC API。
 
+**资源**：
+
++ [public-apis](https://github.com/toddmotto/public-apis)：公共API集合。
++ [HTTP Echo Server](https://beeceptor.com/resources/http-echo/)：返回输入的值。
+
 
 
 ### Network
@@ -321,12 +334,28 @@
 
 
 
-# 面试资料
+# 练习场
+
+**freeCodeCamp**
+
++ github：https://github.com/freeCodeCamp/freeCodeCamp
++ site：https://contribute.freecodecamp.org/intro/
++ 中文版：https://www.freecodecamp.org/chinese/learn/
+
+
+
+# 资料合集
+
++ [free-programming-books](https://github.com/EbookFoundation/free-programming-books): 经常更新的免费资源列表。收集了来自于世界各地的材料，包括数据，播客，网站，开发工具等等。
++ 
+
+## 面试资料
 
 + [让我在面试官面前结巴的24个XX和XX的区别！](https://juejin.cn/post/6956360277185003556)
 + [前端专刷/Promise相关](https://wiki.jirengu.com/doku.php?id=%E5%89%8D%E7%AB%AF%E4%B8%93%E5%88%B7_promise%E7%9B%B8%E5%85%B3) 
 + [要就来45道Promise面试题一次爽到底](https://github.com/LinDaiDai/niubility-coding-js/blob/master/JavaScript/%E5%BC%82%E6%AD%A5/%E8%A6%81%E5%B0%B1%E6%9D%A545%E9%81%93Promise%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B8%80%E6%AC%A1%E7%88%BD%E5%88%B0%E5%BA%95.md) 
 + [【Step-By-Step】一周面试题深入解析 ](https://github.com/YvetteLau/Blog?tab=readme-ov-file) 
++ [coding-interview-university](https://github.com/jwasham/coding-interview-university)：[博主准备谷歌面试8个月的过程](https://medium.freecodecamp.com/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)的相关文档，包含了为了通过谷歌非常知名的白板测试需要准备的详细列表，以及解释多种计算机科学概念的参考链接。
 
 
 
@@ -336,10 +365,6 @@
 + [Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues)：工作日每天一道大厂前端面试题；
 + [大前端面试宝典 - 图解前端](https://github.com/azl397985856/fe-interview)：宇宙最强的前端面试指南；
 + [大前端 - 前端高级进阶](https://front-end.toimc.com/notes-page/)
-+ freeCodeCamp
-  + 英文版：https://github.com/freeCodeCamp/freeCodeCamp
-  + 中文版：https://learn.freecodecamp.one/
-  + https://chinese.freecodecamp.org/learn
 
 
 
@@ -352,16 +377,19 @@
   + [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) 
   + [How Does setState Know What to Do?](https://overreacted.io/how-does-setstate-know-what-to-do/) 
 + [ramsayleung](https://ramsayleung.github.io/zh/) 
++ [Eric Elliott](https://medium.com/@_ericelliott) 
 
 
 
-## 科技周刊
+## 周刊
 
 + [weekly 前端精读](https://github.com/ascoders/weekly) 
 + [前端早早聊](https://juejin.cn/user/712139234347565/posts) 
 + [前端食堂技术周刊](https://github.com/Geekhyt/weekly) 
 + [ZooTeam 前端周刊](https://juejin.cn/post/7020290791935475743) 
 + [Echo JS](https://www.echojs.com/)
++ [articles-translator](https://github.com/madneal/articles-translator)：一些英文文章翻译
++ [Blog](https://github.com/ljianshu/Blog)：前端工匠公众号
 
 
 
@@ -434,11 +462,13 @@
 + [iconfont](https://www.iconfont.cn/)：阿里巴巴矢量图标库
 + [Iconic](https://iconic.app/) ：一个开放式的图标仓库，可以分类查找图标，免费下载
 + [flaticon](https://www.flaticon.com/)：图标库
++ [d3](https://github.com/d3/d3)：Bring data to life with SVG, Canvas and HTML.
 
 ### 框架库
 
 + [React](https://react.dev/)：The library for web and native user interfaces
 + Vue
++ [Bootstrap](https://github.com/twbs/bootstrap)：Sleek, intuitive, and powerful front-end framework for faster and easier web development.
 + [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 + [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
 
