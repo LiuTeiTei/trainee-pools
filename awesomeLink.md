@@ -10,6 +10,47 @@
 
 
 
+## AI
+
+**资源集合：**
+
++ [非猪ai导航](https://feizhuke.com/) 
++ [GPT学习宝典](https://gpt.candobear.com/) 
+
+**聊天室：**
+
++ [ChatGPT](https://chatgpt.com/) 
++ [DeepSeek](https://chat.deepseek.com/)
++ [文心一言](https://yiyan.baidu.com/) 
++ [Gemini](https://gemini.google.com/) 
++ [copilot](https://copilot.microsoft.com/chats) 
+
+**Agent：**
+
++ [Manus](https://manus.im/)
++ [GROK](https://x.ai/)
+
+**代码助手：**
+
++ [Copilot](https://github.com/features/copilot)
+  + [如何在 VS Code 中使用 GitHub Copilot](https://www.freecodecamp.org/chinese/news/how-to-use-github-copilot-with-visual-studio-code/)
++ [Cursor](https://www.cursor.com/en)
+  + [从 VSCode 迁移到 Cursor](https://github.com/maomao1996/daily-notes/issues/50)
+  + [切换为使用 Cursor](https://vscode-cpp-starter.readthedocs.io/cursor/#id9)
+  + [2025最全Cursor导入VSCode配置失败解决方案：8大修复方法完全指南](https://www.cursor-ide.com/blog/cursor-vscode-import-fix-2025)
+  + [Cursor 完全使用教程](https://zhuanlan.zhihu.com/p/787178627)
+
+**画图：**
+
++ [Anki](https://open-spaced-repetition.github.io/anki-manual-zh-CN/intro.html) + gpt
+  + https://x.com/KFCQZ/status/1909493278149681562
+
+**文章：**
+
++ [DeepSeek Is Chinese But Its AI Models Are From Another Planet](https://albertoromgar.medium.com/deepseek-is-chinese-but-its-ai-models-are-from-another-planet-e4cf94840086) 
+
+
+
 ## WEB
 
 ### JavaScript
@@ -132,7 +173,6 @@
 
 + 插件
   + [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)：ESLint 的插件，专门用来检查Hooks 是否正确被使用
-
 + React 组件库：
   + [Ant Design](https://ant.design/components/overview-cn/)：基础组件库
   + [Ant Design ProComponents](https://procomponents.ant.design/components)：CRUD 的 Ant Design；
@@ -141,17 +181,19 @@
   + [Reshake](https://elrumordelaluz.github.io/reshake/)：瑟瑟发抖的组件；
   + [React error boundary](https://github.com/bvaughn/react-error-boundary)：React 错误处理方式；
     + [React error boundary: 更强大的 React 错误处理方式](https://www.illacloud.com/zh/blog/react-error-boundary/#%E4%BB%80%E4%B9%88%E6%98%AF-react-error-boundary)
+  + [use-text-selection](https://github.com/juliankrispel/use-text-selection)：选中文案后浮出自定义图案
++ React 状态管理：
+  + [Jotai](https://jotai.org/)([中文文档](https://ouweiya.github.io/jotai-zh)、[傻瓜翻译的中文版](https://jotai.jscn.org/))：原始而灵活的 React 状态管理库；
+
 + React Fetchs：
   + [React Query](https://react-query-v3.tanstack.com/)：React 数据请求
-  + [SWR](https://swr.vercel.app/zh-CN)：用于数据请求的 React Hooks 库
+  + [SWR](https://swr.vercel.app/)([中文文档](https://swr.vercel.app/zh-CN))：用于数据请求的 React Hooks 库
+  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)：其中的 useRequest 是一个强大的异步数据管理的 Hook；
 + React Hooks：
-  + [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子
-  + [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子
+  + [use-debounce](https://github.com/xnimorz/use-debounce)：React 防抖钩子；
+  + [useQueryParams](https://github.com/pbeshai/use-query-params)：React 管理 URL 参数钩子；
   + [useHooks](https://usehooks.com/)
   + [usehooks-ts](https://usehooks-ts.com/)
-
-  + [ahooks](https://ahooks.js.org/zh-CN/hooks/use-request/index)：其中的 useRequest 是一个强大的异步数据管理的 Hook；
-
   + https://streamich.github.io/react-use/?path=/story/components-usekey--demo
 + 其他
   + [React Router](https://reactrouter.com/en/main/route/route#index)：React 路由控制，v5 和 v6 差别比较大
@@ -453,6 +495,7 @@
 
 + [Ramda](https://ramdajs.com/)、[Lodash](https://lodash.com/docs/4.17.15)：常用函数库
 + [SWR](https://swr.vercel.app/)：用于数据获取和状态管理的前端库
++ [Day.js](https://day.js.org/)、[dayjs-with-plugins](https://github.com/ladjs/dayjs-with-plugins)、[Moment.js](https://momentjs.com/) 时间库
 
 ### 组件库
 
@@ -463,6 +506,7 @@
 + [Iconic](https://iconic.app/) ：一个开放式的图标仓库，可以分类查找图标，免费下载
 + [flaticon](https://www.flaticon.com/)：图标库
 + [d3](https://github.com/d3/d3)：Bring data to life with SVG, Canvas and HTML.
++ [diff2html](https://diff2html.xyz/)：Diff parser and pretty html generator
 
 ### 框架库
 
