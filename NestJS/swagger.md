@@ -6,6 +6,8 @@ https://github.com/nestjs/swagger?tab=readme-ov-file
 
 ### 自动给每个 api 加上 @ApiResponse，不需要手动的一个个加：
 
+https://docs.nestjs.com/openapi/cli-plugin#using-the-cli-plugin
+
 + 类型写在 .dto.ts 文件中；
 
 + 类型定义写法是 export class XXX {} 而不是 interface；

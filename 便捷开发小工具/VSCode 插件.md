@@ -4,6 +4,10 @@ https://previewjs.com/ 代码可视化插件
 
 
 
+[open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)：在浏览器中直接打开文件
+
+
+
 ## 快捷键
 
 JSON 文件格式化

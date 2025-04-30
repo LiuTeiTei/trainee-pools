@@ -28,3 +28,11 @@ Allow CORS
 + https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 + chrome://extensions/?id=lhobafahddgcelffkeicbaginigeejlf
 
+
+
+#### AI 助手
+
+Shopee AI Extension
+
++ https://ai.extension.shopee.io/
++ https://chromewebstore.google.com/detail/shopee-ai-extension/oaifegkjaakcajmmelnbjppolnibfcga
