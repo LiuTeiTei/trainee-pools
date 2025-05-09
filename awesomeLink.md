@@ -429,6 +429,8 @@
 - https://anime.dmkt-sp.jp/animestore/tp_pc
 - https://www.wcofun.com/
 
+
+
 # 便捷工具
 
 ## Library 类
@@ -438,6 +440,8 @@
 - [Ramda](https://ramdajs.com/)、[Lodash](https://lodash.com/docs/4.17.15)：常用函数库
 - [SWR](https://swr.vercel.app/)：用于数据获取和状态管理的前端库
 - [Day.js](https://day.js.org/)、[dayjs-with-plugins](https://github.com/ladjs/dayjs-with-plugins)、[Moment.js](https://momentjs.com/) 时间库
+
+
 
 ### 组件库
 
@@ -450,6 +454,8 @@
 - [d3](https://github.com/d3/d3)：Bring data to life with SVG, Canvas and HTML.
 - [diff2html](https://diff2html.xyz/)：Diff parser and pretty html generator
 
+
+
 ### 框架库
 
 - [React](https://react.dev/)：The library for web and native user interfaces
@@ -458,9 +464,19 @@
 - [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 - [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
 
+
+
+### 请求库
+
++ [got](https://github.com/sindresorhus/got?tab=readme-ov-file#readme): 🌐 Human-friendly and powerful HTTP request library for Node.js
+
+
+
 ### 其他
 
 - [Tesseract.js](https://github.com/naptha/tesseract.js)：纯 JS 文件阅读器
+
+
 
 ## Web 类
 
@@ -472,10 +488,14 @@
 - [345Tool.com](https://www.345tool.com/zh-hans) ：收集了一些可以提高编程效率的在线小工具。
 - [PDFReal](https://pdfreal.com/) ：该网站提供了一系列在线工具，用于 PDF 文件的各种处理。
 
+
+
 ### API 管理工具
 
 - [YApi](https://yapi.pro/)：高效、易用、功能强大的 API 管理平台
 - [Apifox](https://apifox.com/)：API 设计、开发、测试一体化协作平台
+
+
 
 ### 画图工具
 
@@ -488,12 +508,16 @@
 - [plantuml](https://plantuml.com/)：绘制各种序列图，类图，活动图，状态机图等等各种 UML 图
 - [matplotlib](https://matplotlib.org/)：绘制各种图表，比如折线图，饼图，直方图等，通常是配合数据分析使用，还支持 xkcd 风格
 
+
+
 ## APP 类
 
 - [RunCat](https://kyome.io/runcat/index.html?lang=en)：在状态栏动画显示 CPU 运行速度。
 - [Stretchly](https://hovancik.net/stretchly/)：休息提醒。
 - [番茄土豆](https://pomotodo.com/intl/zh-CN/)：时间管理。
 - [Grammarly](https://www.grammarly.com/)：英语语法检查。
+
+
 
 ## 视频资源
 
@@ -503,6 +527,8 @@
 - [课程搜索-Classpert](https://classpert.com/)
 - [Youtube 计算机科学课程资源](https://web.archive.org/web/20210210143025/https://laconicml.com/computer-science-curriculum-youtube-videos/)
 - [斯坦福大学 iOS 开发课程](https://cs193p.sites.stanford.edu/)
+
+
 
 ## 在线书籍
 
@@ -515,6 +541,8 @@
 - [程序员的 IT 英语教材](https://englishplusplus.jcj.uj.edu.pl/index.html) ：波兰某个大学的计算机专业英语教材，收集了一些 IT 方面的经典英语文章，用来提高非英语国家程序员的英语水平。
 - [《重构》](https://refactoring.guru/refactoring)
 - [信息检索导论](https://nlp.stanford.edu/IR-book/)：一本免费阅读的英语教材，介绍搜索引擎的原理和基本技术。
+
+
 
 # 资源网站
 
