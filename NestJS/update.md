@@ -56,10 +56,6 @@ export function TimestampCreateDateColumn() {
 + `TimestampUpdateDateColumn` 和 `TimestampCreateDateColumn` 是自定义的装饰器，作用是在实体插入数据库时自动设置字段为当前毫秒数时间戳。
 + 不需要在每次插入或更新时手动赋值，TypeORM 会自动调用这个装饰器修饰的函数。
 + 区别于 TypeORM 的 `@CreateDateColumn()` 默认存储 Date 类型（如 2024-06-10T12:00:00.000Z），`@TimestampCreateDateColumn()` 存储的是 number 类型的时间戳（如 1718000000000）。
-+ 需要注意的是，不是所有的方法都会触发装饰器（包括自定义装饰器）：
-  + `save()`、`update()` 这类操作**会触发**实体的钩子，包括自定义装饰器，所以会自动赋值。
-  + `insert()` 和 `upsert()` 这类操作**不会触发**实体的钩子和自定义装饰器，所以不会自动赋值，需要手动赋值。
-  + 这是 TypeORM 的机制，和自定义装饰器无关。
 
 
 
@@ -99,6 +95,42 @@ export class RoutesConfigEntity {
   updated_at: number
 }
 ```
+
+
+
+## [`@BeforeInsert`](https://typeorm.io/listeners-and-subscribers#beforeinsert) & [`@BeforeUpdate`](https://typeorm.io/listeners-and-subscribers#beforeupdate)
+
++ 需要注意：直接调用 `save()`、`update()` 不会触发装饰器，需要将对象包装成 Entity 实例：
+
+  + plainToInstance
+
+    ```js
+    import { plainToInstance } from 'class-transformer'
+    
+    async create(routeConfig: RouteConfigDto) {
+        const entity = plainToInstance(RoutesConfigEntity, routeConfig);
+        return this.routesConfigEntity.save(routeConfig);
+    }
+    ```
+
+  + new Entity()
+
+    ```js
+    async create(routeConfig: RouteConfigDto) {
+        const entity = Object.assign(new RoutesConfigEntity(), routeConfig);
+        return this.routesConfigEntity.save(entity);
+    }
+    ```
+
+  + Refer：
+    + [Typeorm BeforeInsert无效](https://juejin.cn/post/6888491405262454797) 
+    + [nestjs更新数据库数据没法触发@BeforeUpdate和@AfterUpdate钩子 ](https://blog.csdn.net/qq_42501092/article/details/127685773) 
+
++ 需要注意的是，不是所有的方法都会触发装饰器（包括自定义装饰器）：
+  + `save()`、`update()` 这类操作**会触发**实体的钩子，包括自定义装饰器，所以会自动赋值。
+  + `insert()` 和 `upsert()` 这类操作**不会触发**实体的钩子和自定义装饰器，所以不会自动赋值，需要手动赋值。
+  + 这是 TypeORM 的机制，和自定义装饰器无关。
+  + 但我实际测试了一下，使用 plainToInstance 转换，至少 `insert()` 和 `upsert()` 是可以调用的，所以上述说法也不准，需要进一步研究。
 
 
 

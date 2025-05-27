@@ -168,6 +168,9 @@
 
 - 插件
   - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)：ESLint 的插件，专门用来检查 Hooks 是否正确被使用
+- React Route
+  - [React Router](https://reactrouter.com/en/main/route/route#index)：React 路由控制，v5 和 v6 差别比较大
+  
 - React 组件库：
   - [Ant Design](https://ant.design/components/overview-cn/)：基础组件库
   - [Ant Design ProComponents](https://procomponents.ant.design/components)：CRUD 的 Ant Design；
@@ -192,7 +195,7 @@
   - [usehooks-ts](https://usehooks-ts.com/)
   - https://streamich.github.io/react-use/?path=/story/components-usekey--demo
 - 其他
-  - [React Router](https://reactrouter.com/en/main/route/route#index)：React 路由控制，v5 和 v6 差别比较大
+  - [react-activation](https://github.com/CJY0208/react-activation)：Vue 中 `<keep-alive />` 功能在 React 中的 hack 实现
 
 **文章：**
 
@@ -208,6 +211,8 @@
 ### 探索
 
 - [Google I/O 演讲](https://io.google/2023/program/intl/zh/?q=web-topic,web)
+
+
 
 ## Server
 
@@ -225,6 +230,8 @@
 
 - [The Node.js best practices list](https://github.com/goldbergyoni/nodebestpractices)
 
+
+
 ### MySQL
 
 **教程：**
@@ -235,9 +242,17 @@
 
 - [SQL 表格连接的可视化连接](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/)：使用图形介绍 SQL join 的类型，简明易懂。
 
-### ORM
 
-- [Objection to ORM hatred](https://www.jakso.me/blog/objection-to-orm-hatred)
+
+### TypeORM
+
++ **文档：**
+  + https://typeorm.io/
++ **文章：**
+  - [Objection to ORM hatred](https://www.jakso.me/blog/objection-to-orm-hatred)
+
+
+
 
 ### NestJS
 
@@ -245,11 +260,15 @@
   - [NestJS](https://nestjs.com/)：官方文档
   - [NestJS](https://nest.nodejs.cn/)：中文文档
 
+
+
 ### 微服务
 
 **文章：**
 
 - [微服务架构是什么？](https://www.zhihu.com/question/65502802)
+
+
 
 ## Others
 
