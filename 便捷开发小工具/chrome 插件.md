@@ -36,3 +36,7 @@ Shopee AI Extension
 
 + https://ai.extension.shopee.io/
 + https://chromewebstore.google.com/detail/shopee-ai-extension/oaifegkjaakcajmmelnbjppolnibfcga
+
+陪读蛙：翻译、总结
+
++ https://github.com/mengxi-ream/read-frog

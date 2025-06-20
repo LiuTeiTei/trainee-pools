@@ -54,7 +54,9 @@
 
 **文章：**
 
-- [DeepSeek Is Chinese But Its AI Models Are From Another Planet](https://albertoromgar.medium.com/deepseek-is-chinese-but-its-ai-models-are-from-another-planet-e4cf94840086)
+- [DeepSeek Is Chinese But Its AI Models Are From Another Planet](https://albertoromgar.medium.com/deepseek-is-chinese-but-its-ai-models-are-from-another-planet-e4cf94840086) 
+
+
 
 ## WEB
 
@@ -124,13 +126,14 @@
 
 **文章：**
 
-- [css 知多少](https://www.cnblogs.com/wangfupeng1988/p/4325007.html)
 - [1-Line Layouts\*](https://1linelayouts.glitch.me/)：主要是 gird 布局，一行代码搞定；
+- [CSS Spotlight Effect](https://frontendmasters.com/blog/css-spotlight-effect/)：一步步教你如何实现聚光灯效果
 
 **资源：**
 
 **练习：**
 
+- [CSS知多少](https://www.cnblogs.com/wangfupeng1988/p/4325007.html)
 - [CSS 小测验](https://css-speedrun.netlify.app/)：提供一组 CSS 测试题，测试你的水平。用户在线回答，它会给你计时，看你用了多少时间；
 - [FLEXBOX FROGGY](https://flexboxfroggy.com/) ：生动形象的 flex 练习；
 - [GRID GARDEN](https://cssgridgarden.com/) ：生动形象的 grid 练习；
@@ -253,6 +256,15 @@
 
 
 
+### Redis
+
++ **文档：**
+  + https://redis.io/docs/latest/develop/clients/nodejs/
+  + [ioredis](https://github.com/redis/ioredis)：nestjs 中用的 redis
+    + API：https://redis.github.io/ioredis/classes/Redis.html
+
+
+
 
 ### NestJS
 
@@ -363,10 +375,14 @@
 - site：https://contribute.freecodecamp.org/intro/
 - 中文版：https://www.freecodecamp.org/chinese/learn/
 
+
+
 # 资料合集
 
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books): 经常更新的免费资源列表。收集了来自于世界各地的材料，包括数据，播客，网站，开发工具等等。
 -
+
+
 
 ## 面试资料
 
@@ -376,6 +392,8 @@
 - [【Step-By-Step】一周面试题深入解析 ](https://github.com/YvetteLau/Blog?tab=readme-ov-file)
 - [coding-interview-university](https://github.com/jwasham/coding-interview-university)：[博主准备谷歌面试 8 个月的过程](https://medium.freecodecamp.com/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)的相关文档，包含了为了通过谷歌非常知名的白板测试需要准备的详细列表，以及解释多种计算机科学概念的参考链接。
 
+
+
 ## 前端每题
 
 - [前端学习每日 3+1](https://github.com/haizlin/fe-interview)：前端面试每日 3+1，以面试题来驱动学习；
@@ -383,7 +401,11 @@
 - [大前端面试宝典 - 图解前端](https://github.com/azl397985856/fe-interview)：宇宙最强的前端面试指南；
 - [大前端 - 前端高级进阶](https://front-end.toimc.com/notes-page/)
 
+
+
 # 扩展眼界
+
+
 
 ## 个人博客
 
@@ -394,6 +416,8 @@
 - [ramsayleung](https://ramsayleung.github.io/zh/)
 - [Eric Elliott](https://medium.com/@_ericelliott)
 
+
+
 ## 周刊
 
 - [weekly 前端精读](https://github.com/ascoders/weekly)
@@ -403,6 +427,8 @@
 - [Echo JS](https://www.echojs.com/)
 - [articles-translator](https://github.com/madneal/articles-translator)：一些英文文章翻译
 - [Blog](https://github.com/ljianshu/Blog)：前端工匠公众号
+
+
 
 ## 新闻网址
 
@@ -441,6 +467,8 @@
 - [花 100 万买一颗人工心脏，不是让你活到 200 岁的](https://www.ifanr.com/1399733)
 - [画质、码率、帧数、分辨率、体积的基础编码知识](https://support.shangzhibo.tv/hc/kb/article/1028655/)
 - [安全背后: 浏览器是如何校验证书的](https://cjting.me/2021/03/02/how-to-validate-tls-certificate/)
+
+
 
 ## 趣味网址
 
@@ -538,6 +566,8 @@
 
 
 
+# 资源薅薅薅
+
 ## 视频资源
 
 - [3Brown1Blue](https://www.3blue1brown.com/) ：专拍数学视频
@@ -546,6 +576,7 @@
 - [课程搜索-Classpert](https://classpert.com/)
 - [Youtube 计算机科学课程资源](https://web.archive.org/web/20210210143025/https://laconicml.com/computer-science-curriculum-youtube-videos/)
 - [斯坦福大学 iOS 开发课程](https://cs193p.sites.stanford.edu/)
+- [探索通辽宇宙](https://www.tongliaouniverse.cn/)：致力于打造B站UP主「小约翰可汗」视频内容的互动知识库，将碎片化视频内容结构化，形成可交互的历史地图与人物网络。
 
 
 
@@ -563,7 +594,7 @@
 
 
 
-# 资源网站
+## 资源网站
 
 - [肌肉维基](https://musclewiki.com/)
 - [荷兰国家博物馆](https://www.rijksmuseum.nl/en/rijksstudio)
