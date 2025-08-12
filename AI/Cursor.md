@@ -1,4 +1,4 @@
-
+[Cursor Rules 详细教程，花5分钟写规则，让Cursor不再瞎改代码，AI编程必备](https://zhuanlan.zhihu.com/p/1906795650714146104)
 
 
 
