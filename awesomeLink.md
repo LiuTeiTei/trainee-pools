@@ -522,6 +522,7 @@
 ### 其他
 
 - [Tesseract.js](https://github.com/naptha/tesseract.js)：纯 JS 文件阅读器
+- [ora](https://github.com/sindresorhus/ora): Elegant terminal spinner
 
 
 
