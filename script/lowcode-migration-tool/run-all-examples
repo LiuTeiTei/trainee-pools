@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Check if parallel command exists
+if ! command -v parallel >/dev/null 2>&1; then
+  brew install parallel
+fi
+
+# Build cli
+yarn run build
+
+# Run migration tool for all examples
+find examples -mindepth 1 -maxdepth 1 -type d | \
+  sort -h | \
+  parallel -k 'echo "\n------{}------\n" && script -q /dev/null node bin/lowcode-migration-tool.js -f -o tests/fixtures/$(basename {}) -i "{}" -e none'
+
+# Get list of modified files
+modified_files=$(git diff --name-only)
+
+# Extract project id list from modified files in tests/fixtures
+echo "\n\n"
+echo "======modified projects======"
+echo "$modified_files" | grep "tests/fixtures/" | cut -d'/' -f3 | sort -h -u

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo building types...
+tsc --outDir types --declaration --emitDeclarationOnly
+
+

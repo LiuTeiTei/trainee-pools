@@ -1,0 +1,7 @@
+#!/bin/sh
+
+yarn run build
+
+projectId=$1
+restArgs="${@:2}"
+node bin/lowcode-migration-tool.js -f -i "examples/${projectId}" -o tests/fixtures/${projectId} ${restArgs}
