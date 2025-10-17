@@ -56,6 +56,10 @@
 
 - [DeepSeek Is Chinese But Its AI Models Are From Another Planet](https://albertoromgar.medium.com/deepseek-is-chinese-but-its-ai-models-are-from-another-planet-e4cf94840086) 
 
+### LLM
+
+https://bbycroft.net/llm
+
 
 
 ## WEB
@@ -405,6 +409,13 @@
 
 # 扩展眼界
 
+## 杂志
+
++ Medium
+  + 官网：https://medium.com/
+  + 破解免费版：https://freedium.cfd/
+  + 破解插件：https://chromewebstore.google.com/detail/medium-parser/elgmajanahbjpbcljflifdnnmpodfiij
+
 
 
 ## 个人博客
@@ -500,6 +511,8 @@
 - [flaticon](https://www.flaticon.com/)：图标库
 - [d3](https://github.com/d3/d3)：Bring data to life with SVG, Canvas and HTML.
 - [diff2html](https://diff2html.xyz/)：Diff parser and pretty html generator
+- Monaco editor：编辑器
+- Code mirror：编辑器
 
 
 
@@ -510,6 +523,9 @@
 - [Bootstrap](https://github.com/twbs/bootstrap)：Sleek, intuitive, and powerful front-end framework for faster and easier web development.
 - [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 - [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
+- Flow:
+  - [xyflow](https://github.com/xyflow/xyflow)：支持 React 或 Svelte 的节点构建库
+
 
 
 
