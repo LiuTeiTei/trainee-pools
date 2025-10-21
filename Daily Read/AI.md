@@ -12,3 +12,15 @@
 + Adopt Defensive Design (Validate and Handle Errors)
 + Define Clear Interfaces and Boundaries
 + Align with Reality (Practicality & Testing)
+
+
+
+#### [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+
+Claude 在 [2025.10.16] 推出 Skills 功能结构化管理 Agents 能力。将提示词、tools 调用、script 运行按照目录管理，让 Agent 判断需要运用某能力时再加载该文件，可以更加有条理的完成任务，还可以减少 tokn 消耗。
+
++ Introducing Agent Skills, a new way to build specialized agents using files and folders.
++ Agents with a filesystem and code execution tools don’t need to read the entirety of a skill into their context window when working on a particular task. 
++ <img src='images/Agent + Skills + Virtual Machine.jpg' >
++ <img src='images/Claude Skill Content.jpg' >
+
