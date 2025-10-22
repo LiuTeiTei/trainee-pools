@@ -56,9 +56,24 @@
 
 - [DeepSeek Is Chinese But Its AI Models Are From Another Planet](https://albertoromgar.medium.com/deepseek-is-chinese-but-its-ai-models-are-from-another-planet-e4cf94840086) 
 
+
+
 ### LLM
 
 https://bbycroft.net/llm
+
+
+
+### Evaluation
+
+评估工具
+
++ [Langfuse](https://github.com/langfuse/langfuse)：LLM Observability, metrics, evals, prompt management, playground, datasets.
+  + 可以进行 tracing，还可以进行评估
++ promptfoo：Test your prompts, agents, and RAGs. 
+  + 主要是提示词评估
+
+
 
 
 
@@ -187,6 +202,8 @@ https://bbycroft.net/llm
   - [React error boundary](https://github.com/bvaughn/react-error-boundary)：React 错误处理方式；
     - [React error boundary: 更强大的 React 错误处理方式](https://www.illacloud.com/zh/blog/react-error-boundary/#%E4%BB%80%E4%B9%88%E6%98%AF-react-error-boundary)
   - [use-text-selection](https://github.com/juliankrispel/use-text-selection)：选中文案后浮出自定义图案
+  - [MUI X](https://github.com/mui/mui-x)：面向各类复杂场景的高级 React UI 组件套件。
+    - Data Grid, Date and Time Pickers, [Charts](https://mui.com/x/react-charts/), and [Tree View](https://mui.com/x/react-tree-view/)
 - React 状态管理：
 
   - [Jotai](https://jotai.org/)([中文文档](https://ouweiya.github.io/jotai-zh)、[傻瓜翻译的中文版](https://jotai.jscn.org/))：原始而灵活的 React 状态管理库；
@@ -415,6 +432,7 @@ https://bbycroft.net/llm
   + 官网：https://medium.com/
   + 破解免费版：https://freedium.cfd/
   + 破解插件：https://chromewebstore.google.com/detail/medium-parser/elgmajanahbjpbcljflifdnnmpodfiij
++ [DEV Community](https://dev.to/)
 
 
 
@@ -493,6 +511,18 @@ https://bbycroft.net/llm
 
 ## Library 类
 
+### 框架库
+
+- [React](https://react.dev/)：The library for web and native user interfaces
+- Vue
+- [Bootstrap](https://github.com/twbs/bootstrap)：Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+- [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+- [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
+- Flow:
+  - [xyflow](https://github.com/xyflow/xyflow)：支持 React 或 Svelte 的节点构建库
+
+
+
 ### 函数库
 
 - [Ramda](https://ramdajs.com/)、[Lodash](https://lodash.com/docs/4.17.15)：常用函数库
@@ -513,18 +543,7 @@ https://bbycroft.net/llm
 - [diff2html](https://diff2html.xyz/)：Diff parser and pretty html generator
 - Monaco editor：编辑器
 - Code mirror：编辑器
-
-
-
-### 框架库
-
-- [React](https://react.dev/)：The library for web and native user interfaces
-- Vue
-- [Bootstrap](https://github.com/twbs/bootstrap)：Sleek, intuitive, and powerful front-end framework for faster and easier web development.
-- [NestJS](https://nestjs.com/)：A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
-- [Storybook](https://storybook.js.org)：用于构建独立的组件和页面交互
-- Flow:
-  - [xyflow](https://github.com/xyflow/xyflow)：支持 React 或 Svelte 的节点构建库
+- [Tabulator](https://github.com/olifolkerd/tabulator)：JS 的交互 Table（可通过代码控制的简单 Excel）
 
 
 
