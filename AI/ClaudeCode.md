@@ -65,3 +65,49 @@ claude code 解析
 [Claude Code 逆向工程研究仓库](https://github.com/shareAI-lab/analysis_claude_code?tab=readme-ov-file)
 
 [Claude Code 模拟](https://github.com/shareAI-lab/Kode/blob/main/README.zh-CN.md)
+
+
+
+
+
+# 一些工具
+
+session 分析：
+
++ [claude-code-log](https://github.com/daaain/claude-code-log)：A Python CLI tool that converts Claude Code transcript JSONL files into readable HTML format.
+
+  + ```bash
+    cd .claude/projects/-Users-xxx
+    uvx claude-code-log 3fdd7b8e-30d0-40fc-b38e-26a8429aaa2e.jsonl
+    ```
+
+    + 进入到指定 jsonl 文件的目录下，转换 3fdd7b8e-30d0-40fc-b38e-26a8429aaa2e.jsonl 文件为 html
+
++ [Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)：Real-time Claude Code usage monitor with predictions and warnings
+
+  + ```bash
+    uvx claude-monitor --view realtime
+    ```
+
+    + 实时监控 token 使用情况
+  + ```
+    uvx claude-monitor --view daily
+    ```
+
+    + 统计 daily 的花费，还可以 monthly
+
++ [better-ccusage](https://github.com/cobra91/better-ccusage)：Analyze your Claude Code/Droid and all providers that use Claude Code or Droid token usage and costs from local JSONL files with multi-provider support — incredibly fast and informative!
+
+  + 前提条件，session 都在默认的 .claude/projects/ 目录下，否则需要配置
+
+  + ```bash
+    npx better-ccusage session
+    ```
+
+    + 按 session 展示花费
+
+  + ```bash
+    npx better-ccusage session --json
+    ```
+
+    + 加上 --json 可以转成 json 格式
