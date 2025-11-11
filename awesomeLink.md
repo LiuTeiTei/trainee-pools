@@ -60,20 +60,29 @@
 
 ### LLM
 
-https://bbycroft.net/llm
++ [LLM Visualization](https://bbycroft.net/llm)：A visualization and walkthrough of the LLM algorithm that backs OpenAI's ChatGPT. Explore the algorithm down to every add & multiply, seeing the whole process in action.
+
++ [self-llm](https://github.com/datawhalechina/self-llm)：《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程
++ [happy-llm](https://github.com/datawhalechina/happy-llm)：从零开始的大语言模型原理与实践教程
 
 
 
 ### Evaluation
 
-评估工具
+**评估工具**
 
 + [Langfuse](https://github.com/langfuse/langfuse)：LLM Observability, metrics, evals, prompt management, playground, datasets.
   + 可以进行 tracing，还可以进行评估
-+ promptfoo：Test your prompts, agents, and RAGs. 
++ [promptfoo](https://www.promptfoo.dev/docs/intro/)：Test your prompts, agents, and RAGs. 
   + 主要是提示词评估
 
 
+
+### Proxy
+
++ [aider](https://github.com/Aider-AI/aider)：aider is AI pair programming in your terminal
++ [claude-code-router](https://github.com/musistudio/claude-code-router)：Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
++ [copilot-api](https://github.com/ericc-ch/copilot-api)：Turn GitHub Copilot into OpenAI/Anthropic API compatible server. Usable with Claude Code!
 
 
 
@@ -387,6 +396,15 @@ https://bbycroft.net/llm
 教程：
 
 - [JSDoc 入门](https://www.jsdoc.com.cn/)
+
+
+
+## Git
+
++ [import-html-entry](https://github.com/kuitos/import-html-entry)：学习如何通过 js 加载 script 和 style 标签
++ [copilot-api](https://github.com/ericc-ch/copilot-api)：如何代理转发请求，如何将 claudecode 请求映射到 copilot
+
+
 
 # 练习场
 
