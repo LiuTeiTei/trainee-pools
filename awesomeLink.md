@@ -175,6 +175,8 @@
 **文章：**
 
 - [浏览器简史及其核心原理详解：47 张图带你走进浏览器的世界](https://juejin.cn/post/6983896089703235592)
+- [Google Chrome漫画书中文版](https://blog.csdn.net/iteye_10668/article/details/81618053) 
+- [浏览器是如何工作的：Chrome V8让你更懂JavaScript](https://juejin.cn/post/6882529843892731911/)
 - [Chrome for Developers - Blog](https://developer.chrome.com/blog?hl=zh-cn)
 
 ### Webpack
