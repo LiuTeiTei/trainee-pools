@@ -40,5 +40,19 @@ vscode 自动保存的时候 import 自动排序
 
 在 VSCode 设置中，启用 editor.formatOnSave 选项。
 通过这些设置，VSCode 在自动保存时会自动排序 import 语句。
+// .vscode/setting.json
+{
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+  // 保存时自动执行代码操作
+  "editor.codeActionsOnSave": {
+    // 使用 TypeScript/JavaScript 的内置功能来组织和排序 import
+    "source.organizeImports": "explicit"
+  },
+  // TypeScript 配置
+  "typescript.preferences.organizeImports": true,
+  // JavaScript 配置
+  "javascript.preferences.organizeImports": true
+}
 ```
 
