@@ -17,3 +17,8 @@ space 的模块联邦
 [[Microspace\] Tech Design](https://confluence.xiami.io/display/DSFE/[Microspace]+Tech+Design)
 
 [[Microspace\] How to expose project modules via module federation](https://confluence.xiami.io/display/DSFE/[Microspace]+How+to+expose+project+modules+via+module+federation)
+
+
+
+因为 webpack 中的 Module Federation 跟 webpack 强绑定了，相同的开发者还开发了一个与构建工具解藕的 [Module Federation](https://module-federation.io/zh/index.html) 
+
