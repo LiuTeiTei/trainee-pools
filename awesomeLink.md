@@ -458,6 +458,7 @@
 
 ## 个人博客
 
+- [張小珺Xiaojùn Podcast](https://www.youtube.com/@xiaojunpodcast)：YouTube 访谈
 - [阮一峰的网络日志](https://www.ruanyifeng.com/blog/weekly/)
 - [overreacted](https://overreacted.io/)
   - [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
