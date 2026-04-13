@@ -1,6 +1,3 @@
-以下是根据上述对话内容生成的 Markdown 文件，你可以直接保存为 `.md` 格式使用。
-
-```markdown
 # `<script defer>` 的作用与执行时机详解
 
 ## 一、`<script defer>` 的基本作用
