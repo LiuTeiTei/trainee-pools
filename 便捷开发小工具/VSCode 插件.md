@@ -48,6 +48,8 @@ vscode 自动保存的时候 import 自动排序
   "editor.codeActionsOnSave": {
     // 使用 TypeScript/JavaScript 的内置功能来组织和排序 import
     "source.organizeImports": "explicit"
+    // 按 Biome 的规则规范化导入顺序
+    "source.organizeImports.biome": "explicit",
   },
   // TypeScript 配置
   "typescript.preferences.organizeImports": true,
@@ -55,4 +57,15 @@ vscode 自动保存的时候 import 自动排序
   "javascript.preferences.organizeImports": true
 }
 ```
+
+
+
+Biome 还是 Prettier
+
++ 设置中设置 Default Formatter 
++ command + shift + P 中查询 Format Document... 是否一致，配置成一致的
+
+
+
+去除没有用到的 import
 
